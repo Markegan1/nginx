@@ -1,14 +1,22 @@
+body{margin:0;}
 
-#box{
+#navbar{
 
-	text-align: center;
-	height:500px;
-	width: 500px;
 	background-color:black;
-	
-
+	transition:all 1s ease;
+	position: absolute;
+	height:100px;
+	width:100%;
+	color:white;
 }
-#text{
-	color:blue;
-	font-size:50px;
+
+.navlinks{
+	color:white;
+	font-weight: bolder;
+	float:left;
+	position: relative;
+	margin-top:2%;
+	margin-left:5%;
+	text-decoration: none;
+
 }
