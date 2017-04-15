@@ -10,13 +10,14 @@ body{margin:0;font-family: 'Concert One', cursive;}
 	color:white;
 }
 
-.navlinks{
+nav{
 	color:white;
 	font-weight: bolder;
-	float:left;
-	position: relative;
-	margin-top:2%;
-	margin-left:5%;
+	position: absolute;
 	text-decoration: none;
 
+}
+.navlinks{
+	position: relative;
+	margin-top:35%;
 }
