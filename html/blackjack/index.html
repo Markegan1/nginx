@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blackjack</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/blackjack.css">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="sweetalert-master/dist/sweetalert.css">
+	<script src="sweetalert-master/dist/sweetalert.min.js"></script>
+</head>
+<body>
+<div id="navbar">
+	<nav>
+		
+		<a href="/" class="link">HOME</a>
+		<a href="/caseopener" class="link">CASE OPENER</a>
+		<a href="/blackjack" class="link">BLACKJACK</a>
+
+	</nav>
+</div>
+
+<div id="yourhand">
+	<div id="mycard1"></div>
+	<div id="mycard2"></div>
+	<div id="mycard3"></div>
+	<div id="mycard4"></div>
+	<div id="mycard5"></div>
+	<div id="totalvalue">Total Value:</div>
+</div>
+<div id="dealerhand">
+	<div id="dealercard1"></div>
+	<div id="dealercard2"></div>
+	<div id="dealercard3"></div>
+	<div id="dealercard4"></div>
+	<div id="dealercard5"></div>
+	<div id="totalvaluedealer">Total Value:</div>
+</div>
+
+<div id="whoshand1">
+	
+	Your hand:
+
+</div>
+<div id="whoshand2">
+	
+	Dealers hand:
+
+</div>
+
+
+<div id="choices">
+	
+	<button class="button" id="hit" onclick="hitCard()">H I T</button>
+	<button class="button" id="stand" onclick="stand()">S T A N D</button> <br>
+	<button class="button" id="start" onclick="startGame()">S T A R T</button>
+
+</div>
+
+<div id="results">
+		<div id="win" style="color:green">Amount of times you've won:</div><br><br><br>
+		<div id="loss" style="color:red">Amount of times you've lost:</div><br><br><br>
+		<div id="tie" style="color:lightblue">Amount of times you've tied:</div>
+
+
+</div>
+
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+
+</body>
+</html>

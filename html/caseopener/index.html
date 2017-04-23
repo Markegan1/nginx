@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Case Opener</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/caseopener.css">
+</head>
+<body>
+<div id="navbar">
+	<nav>
+		
+		<a href="/" class="link">HOME</a>
+		<a href="/caseopener" class="link">CASE OPENER</a>
+		<a href="/blackjack" class="link">BLACKJACK</a>
+
+	</nav>
+</div>
+
+<div id="info">
+	
+	<ul>
+		<li><p>Tickets explained:</p><ul>
+    <li><span style="color:yellow">Knife</span> - any tickets from<span style="font-weight:bolder"> 0</span> to<span style="font-weight:bolder"> 2.1 </span> (0.21%)</li>
+    <li><span style="color:Red">Red</span> - any tickets from<span style="font-weight:bolder"> 2.2</span> to<span style="font-weight:bolder"> 7.8</span> (0.57%)</li>
+    <li><span style="color:#FF69B4">Pink</span> - any tickets from<span style="font-weight:bolder"> 7.9</span> to<span style="font-weight:bolder"> 39.3</span> (3.15%)</li>
+    <li><span style="color:purple">Purple</span> - any tickets from<span style="font-weight:bolder"> 39.4</span> to<span style="font-weight:bolder"> 201.9</span> (16.26%)</li>
+    <li><span style="color:blue">Blue</span> - any tickets from<span style="font-weight:bolder"> 202</span> to<span style="font-weight:bolder"> 1000</span> (79.81%)</li>
+    </ul>
+		</li>
+
+	</ul>
+	<br>
+	<p>You can change the outcome of the roll by typing what you want in the text box.  Your options are;
+		<span style="color:yellow; font-weight: bolder"> knife</span>,
+		<span style="color:red;font-weight: bolder">red</span>,
+		<span style="color:#FF69B4;font-weight: bolder"> pink</span>,
+		<span style="color:purple;font-weight: bolder"> purple</span>,
+		<span style="color:blue;font-weight: bolder"> blue</span>.
+	</p><br>
+	<ul>
+		<li><span style="color:blue;font-weight: bolder">Blue</span> counter - <span id="blue">0</span>
+		<li><span style="color:purple;font-weight: bolder">Purple</span> counter - <span id="purple">0</span>
+		<li><span style="color:#FF69B4;font-weight: bolder">Pink</span> counter - <span id="pink">0</span>
+		<li><span style="color:red;font-weight: bolder">Red</span> counter - <span id="red">0</span>
+		<li><span style="color:yellow;font-weight: bolder">Knife</span> counter - <span id="knife">0</span>
+	</ul>
+</div>
+
+<div id="slotcontainer">
+<div id="slot"></div>
+<div id="spinnercontainer">
+	<div id="spinner1"></div>
+	<div id="spinner2"></div>
+	<div id="spinner3"></div>
+</div>
+
+
+<div id="result">
+	<br><br>Click the button to open a case
+</div>
+<form>
+<button type="button"  onclick="openCase()" id="button">Open a case</button>
+
+<input id="itemWanted" placeholder="blue, purple, pink, red, knife">
+
+</form>
+</div>
+
+</div>
+
+<script src="main.js"></script>
+<!-- By Mark Egan -->
+
+</body>
+</html>

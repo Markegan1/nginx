@@ -1,0 +1,242 @@
+#yourhand{
+
+	position: absolute;
+	background-color:gray;
+	width:30%;
+	height:30%;
+	display: block;
+	left:5%;
+	
+	top:12%;
+	font-family: 'Anton', sans-serif;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
+
+#dealerhand{
+
+	position: absolute;
+	background-color: gray;
+	width:30%;
+	height:30%;
+	display: block;
+	left:40%;
+	
+	top:12%;
+	font-family: 'Anton', sans-serif;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+
+#choices{
+	position: absolute;
+	left:5%;
+	top:45%;
+	height:10%;
+	width:66%;
+	font-family: 'Anton', sans-serif;
+
+
+
+}
+.button{	
+	border:solid;
+	border-width: 5px;
+	background-color:lightblue;
+	font-family: 'Anton', sans-serif;
+}
+#hit{
+	height:100%;
+	width:23%;
+	box-shadow: 1px 1px 1px #888888;
+}
+#stand{
+	height:100%;
+	width:23%;
+	box-shadow: 1px 1px 1px #888888;
+}
+#start{
+	margin-top:5px;
+	width:46%;
+	height:100px;
+	box-shadow: 1px 1px 1px #888888;
+}
+
+.button:active{
+
+	background-color:lightblue;
+
+}
+#whoshand1{
+	
+	position: absolute;
+	left:5%;
+	top:10px;
+
+
+}
+#whoshand2{
+	
+	position: absolute;
+	left:40%;
+	top:10px;
+
+
+}
+
+
+#mycard1{
+
+	position: absolute;
+	height:42%;
+	width:15%;
+	background-color: gray;
+	left:3%;
+	top:2%;
+	transition: all 0.25s;
+	background-size: cover;
+	
+
+}
+#mycard2{
+
+	position: absolute;
+	height:42%;
+	width:15%;
+	background-color: gray;
+	left:20%;
+	top:2%;
+	
+	transition: all 0.25s;
+	background-size: cover;
+}
+#mycard3{
+	position: absolute;
+	height:42%;
+	width:15%;
+	background-color: gray;
+	left:37%;
+	top:2%;
+	
+	transition: all 0.25s;
+	background-size: cover;
+}
+#mycard4{
+
+	position: absolute;
+	height:42%;
+	width:15%;
+	background-color: gray;
+	left:54%;
+	top:2%;
+	
+	transition: all 0.25s;
+	background-size: cover;
+	
+}
+#mycard5{
+
+	position: absolute;
+	height:42%;
+	width:15%;
+	background-color: gray;
+	left:71%;
+	top:2%;
+	
+	transition: all 0.25s;
+	background-size: cover;
+	
+}
+
+
+#dealercard1{
+	position: absolute;
+	height:42%;
+	width:15%;
+	background-color: gray;
+	left:3%;
+	top:2%;
+	
+	transition: all 0.25s;
+	background-size: cover;
+}
+#dealercard2{
+
+	position: absolute;
+	height:42%;
+	width:15%;
+	background-color: gray;
+	left:20%;
+	top:2%;
+	
+	transition: all 0.25s;
+	background-size: cover;
+	
+}
+#dealercard3{
+	position: absolute;
+	height:42%;
+	width:15%;
+	background-color: gray;
+	left:37%;
+	top:2%;
+	
+	transition: all 0.25s;
+	background-size: cover;
+}
+#dealercard4{
+
+	position: absolute;
+	height:42%;
+	width:15%;
+	background-color: gray;
+	left:54%;
+	top:2%;
+	
+	transition: all 0.25s;
+	background-size: cover;
+	
+}
+#dealercard5{
+
+	position: absolute;
+	height:42%;
+	width:15%;
+	background-color: gray;
+	left:71%;
+	top:2%;
+	
+	transition: all 0.25s;
+	background-size: cover;
+	
+}
+#totalvalue{
+	position: absolute;
+	top:50%;
+	left:50%;
+}
+#totalvaluedealer{
+	position: absolute;
+	top:50%;
+	left:50%;
+}
+
+.spinin{
+	display: inline-block;
+	transform: rotateY(180deg);
+	transition: all 1s;
+
+
+}
+#results{
+	position: absolute;
+	height:auto;
+	width:15%;
+	right:12%;
+	top:15%;
+	border:solid;
+	background-color: black;
+	box-shadow: 10px 10px 5px #888888;
+}

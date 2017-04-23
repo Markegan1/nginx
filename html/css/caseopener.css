@@ -1,0 +1,71 @@
+#slotcontainer{
+	position:absolute;
+	top:40%;
+	left:40%;
+
+}
+
+#slot{
+
+	position: relative;
+	height:400px;
+	width:400px;
+	background-color:black;
+	border:solid;
+	border-color: white;
+	float:left;
+	transition: all .25s;
+	background-image: url("case.png");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+
+}
+#button{
+	height:100px;
+	width:100px;
+	background-color:black;
+	color:white;
+	border:
+	none;display:inline-block;
+}
+#itemWanted{
+
+	border:none;
+	display:inline-block;
+	height:100px;
+	width:300px;
+	font-size:20px;
+	border-bottom:solid;
+
+}
+
+#spinnercontainer{
+
+	position: absolute;
+	border:solid;
+	top:120px;
+	bottom:140px;
+	height:150px;
+	width:400px;
+	visibility: hidden;
+	opacity: 0;
+}
+#spinner1, #spinner2, #spinner3{
+	position: relative;
+	background-color: black;
+	height:140px;
+	width:120px;
+	margin-left:10px;
+	transition: all 0.5s;
+	top:5px;
+	float:left;
+	visibility: hidden;
+	opacity: 0;
+}
+#info{
+	top:10%;
+	position: absolute;
+	height:auto;
+	width:auto;
+}
